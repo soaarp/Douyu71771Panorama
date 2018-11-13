@@ -69,14 +69,14 @@
 				camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, 1100 );
 				camera.target = new THREE.Vector3( 0, 0, 0 );
 
-				scene = new THREE.Scene();
+				//scene = new THREE.Scene();
 
 				//创建一个canvas绘制文字
 
 				//箭头板子
-                go_yangtai = makeTextSprite( "　　　☝","去阳台看看");
-                go_yangtai.position.set(-3,-1.5,-0.5);
-                scene.add(go_yangtai);
+        //        go_yangtai = makeTextSprite( "　　　☝","去阳台看看");
+        //        go_yangtai.position.set(-3,-1.5,-0.5);
+        //        scene.add(go_yangtai);
 
                 //全景场景
 				 geometry = new THREE.SphereGeometry( 500, 60, 40 );
