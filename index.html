@@ -31,7 +31,7 @@
 
 		<div id="container"></div>
 		<div id="info">
-			欢迎来到225宿舍~
+			欢迎来到斗鱼71771辅助全景图
 		</div>
 
 		<script src="build/three.js"></script>
@@ -83,7 +83,7 @@
 				geometry.scale( - 1, 1, 1 );
 
                 sushe_low = new THREE.MeshBasicMaterial( {
-					map: new THREE.TextureLoader().load( 'sushe_low.jpg', void function(){
+					map: new THREE.TextureLoader().load( 'cameraN_Small.jpg', void function(){
                         time++ }() )} );
 
                 yangtai_low = new THREE.MeshBasicMaterial( {
@@ -98,7 +98,7 @@
 //                    map: new THREE.TextureLoader().load( 'sushe.jpg', void function(){
 //                      mesh.material = sushe;   }() )} );
 				//正确写法：在加载完成之后先完成对材质对象的构建，在进行使用
-				new THREE.TextureLoader().load('sushe.jpg', function (texture) {
+				new THREE.TextureLoader().load('cameraN_Big.jpg', function (texture) {
                     	sushe = new THREE.MeshBasicMaterial( {
                         map: texture
                     } );
